@@ -1,0 +1,30 @@
+.Hero__container{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 4rem;
+    justify-content: space-between;
+    max-height: calc(100vh - 10rem);
+    gap: 2rem;
+}
+@media screen and (max-width: 1450px) {
+    .Hero__container{
+        padding: 1rem ;
+    }
+}
+@media screen and (max-width: 920px) {
+   .Hero__container{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: max-content !important;
+   }
+}
+@media screen and (max-width: 600px) {
+    .navbar__mobile{
+        padding: 1rem;
+        width: calc(100% - 2rem);
+    }
+    .navbar__mobile h1{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,166 @@
+.containerBlue{
+    max-width: 100%;
+    min-height: 100px;
+    border-left:3px solid #3877aa;
+    background-color: #6fc6da57;
+    border-radius: 5px;
+    padding: 1rem;
+    position: relative;
+    margin: 1rem 0;
+}
+.iconBlue{
+    color: #3877aa;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+}
+.containerBlue h2{
+    margin-bottom: 0.2rem;
+}
+.containerGreen{
+    max-width: 100%;
+    min-height: 100px;
+    border-left:3px solid #6abe4e;
+    background-color: #a3c79771;
+    border-radius: 5px;
+    padding: 1rem;
+    position: relative;
+    margin: 1rem 0;
+}
+.iconGreen{
+    color: #6abe4e;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+}
+.containerGreen h2{
+    margin-bottom: 0.2rem;
+}
+.containerWarn{
+    max-width: 100%;
+    min-height: 100px;
+    border-left:3px solid #e7bf52;
+    background-color: #dbce5583;
+    border-radius: 5px;
+    padding: 1rem;
+    position: relative;
+    margin: 1rem 0;
+}
+.iconWarn{
+    color: #e7bf52;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    z-index: 2;
+}
+.containerWarn h2{
+    margin-bottom: 0.2rem;
+}
+
+.containerRed{
+    max-width: 100%;
+    min-height: 100px;
+    border-left:3px solid #a11616;
+    background-color: #a1161663;
+    border-radius: 5px;
+    padding: 1rem;
+    position: relative;
+    margin: 1rem 0;
+    margin-top: 2rem;
+}
+.iconRed{
+    color: #a11616;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    z-index: 2;
+    background-color: #fff;
+}
+.containerRed h2{
+    margin-bottom: 0.2rem;
+}
+
+.blackdropRed{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: -10px;
+    left: -10px;
+    z-index: 0;
+    background-color: black;
+}
+
+.blackdrop{
+    position: absolute;
+    height: 20px;
+    width: 5px;
+    top: -10px;
+    left: -2px;
+    z-index: 1;
+    background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .iconBlue{
+        color: #3895aa;
+        position: absolute;
+        top: -20px;
+        left: calc(50% - 20px);
+        /* background-color: #fff; */
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        background-color: #fff;
+    }
+    .iconGreen{
+        left: calc(50% - 20px);
+    }
+    .iconRed{
+        left: calc(50% - 20px);
+    }
+    .iconWarn{
+        left: calc(50% - 20px);
+        top: -25px;
+    }
+    .blackdrop{
+        position: absolute;
+        height: 20px;
+        width: 5px;
+        top: -10px;
+        left: calc(50% - 2px);
+        z-index: 1;
+        background-color: black;
+    }
+    .blackdropRed{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: -10px;
+        left: calc(50% - 10px);
+        z-index: 1;
+        background-color: black;
+    }
+    .containerBlue h2,.containerGreen h2,.containerWarn h2, .containerRed h2{
+        text-align: center;
+    }
+}

@@ -1,0 +1,51 @@
+.PopularCard__container{
+    /* /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1/1 ;
+    max-width: calc(95% - 2rem) !important;
+    /* color: white !important;
+    text-decoration: none !important; */
+    /* background-color: white;  */
+}
+.PopularCard__background{
+    position: absolute !important; 
+    width: calc(100% + 10px) !important;
+    height: calc(100% ) !important;
+    /* top: 0px !important; */
+    /* right: 0px !important; */
+    left: -10px;
+    z-index: -1 !important;
+}
+.topic{
+    color: rgba(173, 173, 173, 0.658);
+    font-weight: 550;
+}
+.title{
+    margin-bottom: 1rem;
+}
+.image{
+    z-index: -1;
+    /* top: -10px !important; */
+    width: 100%  !important;
+    height: 100% !important;
+    /* top: -1.5rem !important; */
+    /* right: 2rem !important; */
+    /* left: -1.5rem !important; */
+    align-self: flex-end;
+    top: -0.4rem !important;
+    left: 0.4rem !important;
+    aspect-ratio: 1/1 !important;
+    filter: brightness(30%);
+    filter: blur(2px);
+}
+.InnerContainer{
+    /* margin-left: 5%; */
+    padding-top: 1rem;
+    padding-right: 0.4rem;
+    padding-left: 1rem;
+    position: relative;
+    height: 100%;
+    aspect-ratio: 1/1 !important;
+    color: white;
+}
